@@ -1,5 +1,97 @@
+/* confi gerais */
 *{
     padding: 0;
     margin: 0;
+    
+}
+
+body{
+    min-height: 100vh;  
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    overflow-x: hidden;
+    
+    
+}
+
+/* confi container */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.fontes{
+    margin: 5em;
+    width: 60%;
+}
+.fontes h1{
+    color: blueviolet;
     font-family: 'Anton', sans-serif;
+    width: 50%;
+}
+
+.fontes p{
+    margin: 1.25em;
+    width: 50%;
+}
+
+.cards{
+    
+    height: 220px;
+    width:40% ;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.estrela1,.estrela2,.estrela3{
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    padding: 8px 0;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.estrela1{
+    margin-right: 3.5em;
+   
+}
+.estrela2{
+    margin-right: 2.7em;
+}
+
+/* container2 */
+.container2{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 295px ;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+
+    
+}
+.card1{
+    background-color: blue;
+    width: 20em;
+    height: 150px;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.card1 P{
+    margin: 20px;
 }
